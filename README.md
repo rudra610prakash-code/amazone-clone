@@ -1,4 +1,4 @@
-# 🛍️ Amazon Clone - Full Stack Web Application
+# 🛍️ Amazon Clone 
 
 A **responsive, user-friendly e-commerce platform** built with vanilla HTML, CSS, and JavaScript. This project replicates the core functionality and design of Amazon, featuring a modern UI/UX experience that works seamlessly across all devices.
 
@@ -371,139 +371,11 @@ item.addEventListener('wheel', (evt) => {
 });
 ```
 
-**3. Form Interactions** (ready for backend)
-```javascript
-// Sign In/Up buttons
-button.addEventListener('click', () => {
-    // Validate form
-    // Send data to backend
-});
-```
-
----
-
-## 📊 Frequently Asked Questions (FAQ)
-
-### **JavaScript Questions**
-
-**Q: How does the image slider work?**
-A: The slider uses a variable `n` to track the current image index. Arrow buttons increment or decrement this value, and the CSS `display: none/block` toggles visibility.
-
-**Q: Why use `event.preventDefault()` in the scroll handler?**
-A: It prevents the default vertical scroll behavior, allowing us to convert wheel movement into horizontal carousel scrolling.
-
-**Q: How are multiple product carousels handled?**
-A: `querySelectorAll()` selects all `.products` containers, and the event listener is applied to each one independently using a `for` loop.
-
-**Q: Can the cart work without a backend?**
-A: Currently, the cart is static HTML. To make it functional, you'd need JavaScript to store items in `localStorage` or connect to a backend API.
-
-**Q: How do page links work without a server?**
-A: HTML file links are relative paths. Browsers can open local HTML files directly. For production, you'd deploy to a web server.
-
-**Q: What's the purpose of the breadcrumb navigation?**
-A: It shows users their location in the site hierarchy and allows quick navigation back to parent categories.
-
----
-
-## 🔮 Future Enhancements
-
-- [ ] **Shopping Cart Functionality**
-  - Store items in `localStorage`
-  - Persist cart across sessions
-  - Real-time quantity updates
-
-- [ ] **Product Search**
-  - Filter products by category
-  - Search bar implementation
-  - Dynamic product loading
-
-- [ ] **Backend Integration**
-  - Node.js/Express server
-  - MongoDB database
-  - User authentication (JWT)
-  - Payment processing (Stripe/PayPal)
-
-- [ ] **Advanced Features**
-  - Product reviews & ratings
-  - Wishlist functionality
-  - Order history
-  - User profiles
-  - Admin dashboard
-
-- [ ] **Performance Optimization**
-  - Image lazy loading
-  - CSS minification
-  - JavaScript bundling
-  - CDN integration
-
-- [ ] **Additional Pages**
-  - Checkout page
-  - Order confirmation
-  - Customer service
-  - Product filter page
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Here's how to contribute:
-
-1. **Fork** the repository
-2. **Create** a feature branch (`git checkout -b feature/amazing-feature`)
-3. **Commit** your changes (`git commit -m 'Add amazing feature'`)
-4. **Push** to the branch (`git push origin feature/amazing-feature`)
-5. **Open** a Pull Request
-
----
-
-## 📄 License
-
-This project is open source and available under the MIT License.
-
 ---
 
 ## 👨‍💻 Author
 
 **Rudra Prakash**
 - GitHub: [@rudra610prakash-code](https://github.com/rudra610prakash-code)
-- Project: [Amazon Clone Repository](https://github.com/rudra610prakash-code/amazone-clone)
 
----
 
-## 🙏 Acknowledgments
-
-- Inspired by Amazon's design and user experience
-- Icons and images from open-source resources
-- Built with vanilla HTML, CSS, and JavaScript (no frameworks)
-
----
-
-## 📞 Support
-
-For questions, issues, or suggestions:
-- Open an [Issue](https://github.com/rudra610prakash-code/amazone-clone/issues)
-- Check existing documentation
-- Review code comments for implementation details
-
----
-
-## 🎉 Key Achievements
-
-✅ Fully responsive design (mobile, tablet, desktop)
-✅ Clean, maintainable code structure
-✅ Professional UI/UX implementation
-✅ Multiple interactive components
-✅ Cross-browser compatibility
-✅ Semantic HTML5 markup
-✅ Modern CSS3 features (Flexbox, Grid)
-✅ Vanilla JavaScript (no dependencies)
-
----
-
-**⭐ If you found this project helpful, please consider giving it a star! ⭐**
-
----
-
-*Last Updated: June 2, 2026*
-*Built with ❤️ using HTML, CSS, and JavaScript*
