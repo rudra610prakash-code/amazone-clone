@@ -1,6 +1,6 @@
 # 🛍️ Amazon Clone 
 
-A **responsive, user-friendly e-commerce platform** built with vanilla HTML, CSS, and JavaScript. This project replicates the core functionality and design of Amazon, featuring a modern UI/UX experience that works seamlessly across all devices.
+A **responsive** built with vanilla HTML, CSS, and JavaScript. This project replicates the core functionality and design of Amazon, featuring a modern UI/UX experience that works seamlessly across all devices.
 
 ---
 
