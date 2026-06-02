@@ -15,8 +15,7 @@ A **responsive, user-friendly e-commerce platform** built with vanilla HTML, CSS
 - [Key Components](#-key-components)
 - [UI/UX Highlights](#-uiux-highlights)
 - [How It Works](#-how-it-works)
-- [Future Enhancements](#-future-enhancements)
-- [Contributing](#-contributing)
+
 
 ---
 
